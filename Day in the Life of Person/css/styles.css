@@ -1,0 +1,49 @@
+body {
+    background-color: darkslategrey;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(120, 148, 148);
+    padding: 30px;
+}
+
+a {
+    color: red;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.one-piece {
+    padding: 0px;
+}
+
+.nav-text {
+    color: pink;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alt-div {
+    margin: 10px;
+    flex-direction: row;
+}
+
+p {
+    color: aliceblue;
+    width: 40%;
+}
+
+.highlight {
+    font-style: oblique;
+}
+
+.hamburger img:hover {
+    filter: brightness(0.7);
+}
